@@ -1,0 +1,38 @@
+[
+  {
+    "id": 5,
+    "name": "HTML",
+    "prof": "95",
+    "learned_at": "Humber College",
+    "image": "skills/tqGd0wGgYGRh2viNybd7IIJ8Lo2eKYrfZ3nheE3H.png",
+    "created_at": "2023-04-19T02:04:19.000000Z",
+    "updated_at": "2023-04-19T02:06:59.000000Z"
+  },
+  {
+    "id": 6,
+    "name": "CSS",
+    "prof": "77",
+    "learned_at": "Humber College",
+    "image": "skills/ikzKwWq1Nkg4SmGFJtA6YsIohP0eXX1BznbNp6Hu.png",
+    "created_at": "2023-04-19T02:04:42.000000Z",
+    "updated_at": "2023-04-19T02:07:38.000000Z"
+  },
+  {
+    "id": 7,
+    "name": "Node.Js",
+    "prof": "77",
+    "learned_at": "Humber College",
+    "image": "skills/BtzBFBs5IvJeXlUu1O08qaIXZQW8ZAGOHD9KGA9f.png",
+    "created_at": "2023-04-19T02:04:56.000000Z",
+    "updated_at": "2023-04-19T02:07:48.000000Z"
+  },
+  {
+    "id": 8,
+    "name": "C#",
+    "prof": "68",
+    "learned_at": "Humber College",
+    "image": "skills/gz1jMAVMNAStCQympVVCtV1oSHGqu0SjLO9fX5b1.png",
+    "created_at": "2023-04-19T02:08:19.000000Z",
+    "updated_at": "2023-04-19T02:08:56.000000Z"
+  }
+]

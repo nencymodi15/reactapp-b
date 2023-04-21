@@ -1,0 +1,20 @@
+[
+  {
+    "id": 6,
+    "name": "Cloud bash",
+    "level": "80",
+    "image": null,
+    "skill_id": 5,
+    "created_at": "2023-04-19T02:23:29.000000Z",
+    "updated_at": "2023-04-19T02:23:29.000000Z"
+  },
+  {
+    "id": 7,
+    "name": "Hackathon",
+    "level": "75",
+    "image": null,
+    "skill_id": 7,
+    "created_at": "2023-04-19T02:23:49.000000Z",
+    "updated_at": "2023-04-19T02:23:49.000000Z"
+  }
+]

@@ -5,6 +5,7 @@
   align-items: center;
   padding: 20px;
   margin-bottom: 20px;
+  background-image: linear-gradient(45deg, #FBC7D4, #A2C7E5); /* Gradient background with pastel colors */
 }
 
 .AcademicImage {
@@ -19,7 +20,7 @@
 .AcademicText {
   flex-basis: 50%;
   padding: 10px;
-  background-color: #fff;
+  background-color: white;
 }
 
 .AcademicText h2 {
@@ -30,7 +31,7 @@
 .AcademicText p {
   margin: 5px 0;
   font-size: 16px;
-  color: #666;
+  color: grey;
 }
 
 .AcademicText p:first-child {

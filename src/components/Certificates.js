@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import "./certificate.css";
 
-function MySkills() {
+export default function Certificates() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -13,14 +14,12 @@ function MySkills() {
   return (
     <div>
       {data.map(item => (
-        <div>
-          <h2>{item.name}</h2>
-          <p>{item.level}</p>
-          <p><img src="" alt=""/></p>
+        <div className='CertificateCotainer'>
+          <h2 className='certificatetitle'>{item.name}</h2>
+          <p className='certificationLevel'><span>Level:</span>{item.level}</p>
+          <img src={item.image} alt={item.name} className='certficateImage'/>
         </div>
       ))}
     </div>
   );
 }
-
-export default MySkills;

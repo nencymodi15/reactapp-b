@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import "./Project.css";
 
 
-function MyProjects() {
+export default function Projects() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -15,11 +15,11 @@ function MyProjects() {
   return (
     <div>
       {data.map(item => (
-        <div class="ProjectContainer">
-          <div class="ProjectImage">
+        <div className="ProjectContainer">
+          <div className="ProjectImage">
             <img src={item.image} alt=""/>
           </div>
-          <div class="ProjectText">
+          <div className="ProjectText">
             <h2>{item.title}</h2>
             <a href={item.url}>{item.title} url</a>
             <p>{item.slug}</p>
@@ -30,5 +30,3 @@ function MyProjects() {
     </div>
   );
 }
-
-export default MyProjects;

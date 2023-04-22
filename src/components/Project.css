@@ -21,7 +21,7 @@
 .ProjectText {
   flex-basis: 50%;
   padding: 10px;
-  background-color: #fff;
+  background-color: white;
   transition: transform 0.3s ease-out;
   transform: translateX(-100%);
 }
@@ -34,7 +34,7 @@
 .ProjectText p {
   margin: 5px 0;
   font-size: 16px;
-  color: #666;
+  color: grey;
 }
 
 .ProjectText p:first-child {

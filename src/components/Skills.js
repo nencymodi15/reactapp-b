@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import "./Skills.css"
 
-function MySkills() {
+export default function Skills() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -14,19 +14,17 @@ function MySkills() {
   return (
     <div>
       {data.map(item => (
-        <div class="SkillContainer">
+        <div className="SkillContainer">
           <div className="SkillText">
             <h2>{item.name}</h2>
             <p>{item.prof}</p>
             <p>{item.learned_at}</p>
           </div>
-          <div class="SkillImage">
-            <img src={item.image} alt="skills"></img>
+          <div className="SkillImage">
+            <img src={item.image} alt="skills" width="100px" height="100px"></img>
           </div>
         </div>
       ))}
     </div>
   );
 }
-
-export default MySkills;

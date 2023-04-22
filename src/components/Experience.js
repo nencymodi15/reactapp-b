@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import "./Experience.css";
 
-function MySkills() {
+
+export default function Experience() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
-    fetch('./json/experience.json')
+    fetch('./json/experiences.json')
       .then(response => response.json())
       .then(data => setData(data))
       .catch(error => console.error(error));
@@ -13,15 +15,12 @@ function MySkills() {
   return (
     <div>
       {data.map(item => (
-        <div>
-          <img src={item.image}></img>
-          <h2>{item.CompanyName}</h2>
-          <p>{item.prof}</p>
-          <p>{item.learned_at}</p>
+        <div className='experienceContainer'>
+          <h2 className='Heading'><span>Company Name:</span>{item.CompanyName}</h2>
+          <p><span className='title'>Experience:</span>{item.yearsofexperiance}</p>
+          <p><span className='title'>Position:</span>{item.position}</p>
         </div>
       ))}
     </div>
   );
 }
-
-export default MySkills;

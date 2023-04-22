@@ -14,6 +14,7 @@ export default function Projects() {
 
   return (
     <div>
+      <h2>Project</h2>
       {data.map(item => (
         <div className="ProjectContainer">
           <div className="ProjectImage">

@@ -14,6 +14,7 @@ export default function Experience() {
 
   return (
     <div>
+      <h2>Experience</h2>
       {data.map(item => (
         <div className='experienceContainer'>
           <h2 className='Heading'><span>Company Name:</span>{item.CompanyName}</h2>

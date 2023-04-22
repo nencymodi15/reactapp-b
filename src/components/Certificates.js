@@ -13,6 +13,7 @@ export default function Certificates() {
 
   return (
     <div>
+      <h2>Certificates</h2>
       {data.map(item => (
         <div className='CertificateCotainer'>
           <h2 className='certificatetitle'>{item.name}</h2>

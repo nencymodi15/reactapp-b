@@ -13,6 +13,7 @@ export default function Skills() {
 
   return (
     <div>
+      <h2>Skills</h2>
       {data.map(item => (
         <div className="SkillContainer">
           <div className="SkillText">

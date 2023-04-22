@@ -14,6 +14,7 @@ export default function Academics() {
 
   return (
     <div>
+      <h2>Education</h2>
       {data.map(item => (
         <div className='AcademicContainer'>
           <div className='AcademicText'>

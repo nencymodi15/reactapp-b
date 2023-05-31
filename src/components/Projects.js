@@ -13,7 +13,7 @@ export default function Projects() {
   }, []);
 
   return (
-    <div className='myproject'>
+    <div className='myproject' id='Projects'>
       <h2>What I Do</h2>
       <p>My main Motivation for the project i am a web developer</p>
       <div className='projects'>

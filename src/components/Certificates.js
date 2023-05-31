@@ -12,7 +12,7 @@ export default function Certificates() {
   }, []);
 
   return (
-    <div>
+    <div id='Certificate'>
       <h2>Certificates</h2>
       {data.map(item => (
         <div className='CertificateCotainer'>

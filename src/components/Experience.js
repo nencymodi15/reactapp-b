@@ -13,7 +13,7 @@ export default function Experience() {
   }, []);
 
   return (
-    <div>
+    <div id='Experience'>
       <h2>Experience</h2>
       {data.map(item => (
         <div className='experienceContainer'>

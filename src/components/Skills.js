@@ -12,7 +12,7 @@ export default function Skills() {
   }, []);
 
   return (
-    <div>
+    <div id='Skill'>
       <h2>Skills</h2>
       {data.map(item => (
         <div className="SkillContainer">

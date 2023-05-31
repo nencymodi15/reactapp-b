@@ -13,7 +13,7 @@ export default function Academics() {
   }, []);
 
   return (
-    <div>
+    <div id='Academic'>
       <h2>Education</h2>
       {data.map(item => (
         <div className='AcademicContainer'>

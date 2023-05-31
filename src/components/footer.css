@@ -1,6 +1,20 @@
-.navigationContainer {
-  height: 60px;
+.footer{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 100px;
+}
+.github{
+  flex-basis: 25%;
+  background-color: black;
+}
+.LinkedIn{
+  flex-basis: 25%;
+  background-color: #0072b1;
+}
+.phone{
+  flex-basis: 25%;
+  background-color: #BB51AA;
+}
+.Instagram{
+  flex-basis: 25%;
+  background-image: linear-gradient(to right, #f9ce34,  #ee2a7b , #6228d7);
 }

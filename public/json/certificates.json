@@ -2,7 +2,8 @@
   {
     "id": 6,
     "name": "Cloud bash",
-    "level": "80",
+    "level": "Got level of 80 Out of 100",
+    "description":"It is google cloud competion where i compete in a multiple choice qustions about Computer languages i choose JAVA",
     "image": "./images/hackathon.jpg",
     "skill_id": 5,
     "created_at": "2023-04-19T02:23:29.000000Z",
@@ -11,7 +12,8 @@
   {
     "id": 7,
     "name": "Hackathon",
-    "level": "75",
+    "level": "Got level of 75 out of 100",
+    "description":"This is hackthon competion where teams get together and make Projects on competitive timing",
     "image": "./images/Cloud.jpg",
     "skill_id": 7,
     "created_at": "2023-04-19T02:23:49.000000Z",

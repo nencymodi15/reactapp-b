@@ -7,6 +7,7 @@ export default function Header(){
   return(
     <div className='navigationContainer'>
       <nav className='main-navigation'>
+      <img src='./images/logo.png' alt='myinfo' width="200px" height={"80px"} className='logoimg'></img>
         <ul>
           <li><a href='#'>Home</a></li>
           <li><a href='#Certificate'>Certificates</a></li>

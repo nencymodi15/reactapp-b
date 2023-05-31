@@ -18,6 +18,7 @@ export default function Certificates() {
         <div className='CertificateCotainer'>
           <h2 className='certificatetitle'>{item.name}</h2>
           <p className='certificationLevel'><span>Level:</span>{item.level}</p>
+          <p className='certificationLevel'><span>Description:</span>{item.description}</p>
           <img src={item.image} alt={item.name} className='certficateImage'/>
         </div>
       ))}

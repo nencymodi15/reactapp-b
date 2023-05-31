@@ -1,11 +1,14 @@
 .navigationContainer {
-  background-color: yellow;
   height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+.logoimg{
+  position: absolute;
+  left: 5%;
+  top: 2%;
+}
 .main-navigation ul {
   list-style-type: none;
   margin: 0;

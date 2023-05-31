@@ -14,7 +14,7 @@ export default function Baseinfo(){
           <span> with a strong foundation in HTML, CSS, and JavaScript. </span>
           <span>Proficient in developing responsive websites</span>
           <span> Strong problem-solving and communication skills with a passion for learning new technologies.</span></p>
-        <a className='HireMeButton'>Hire Me</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeWuVv3RqpCCabPUSI798UbO0XE-HGzk9WZuEmCItFpCz67xw/viewform?usp=sf_link" className='HireMeButton'>Hire Me</a>
         <a className='LearnMoreButton'>&rarr; Laern More</a>
      </div>
       <img src="./images/nency.png" alt='myinfo' width="600px" height={"700px"} className='imgcsss'></img>

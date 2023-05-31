@@ -98,3 +98,12 @@
 .about span{
   display: block;
 }
+@media screen and (max-width: 360px) {
+  .triangle{
+    border-width: 100px 100px 100px 100px;
+}
+.imgcsss{
+  display: none;
+}
+
+}
